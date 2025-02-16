@@ -1,0 +1,10 @@
+[project]
+name = "plex-list-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fire>=0.7.0",
+    "plexapi>=4.16.1",
+]

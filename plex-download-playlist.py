@@ -52,6 +52,7 @@ def _verify_requirements(username, password, server):
 
 def _get_server(username, password, server):
     account = MyPlexAccount(username, password)
+    print(account)
     return account.resource('sunplex').connect()
 
 def _get_source_path(path, plex_dir=None, local_dir=None):
